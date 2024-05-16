@@ -1,5 +1,5 @@
-% The phase-correcting allpass filter
 
+% The phase-correcting allpass filter
 % Adaptor coefficients
 a10 = 0.4573;
 a11 = -0.2098;
@@ -27,4 +27,5 @@ sfga = addoperand(sfga, 'delay', 5, 13, 14);
 sfga = addoperand(sfga, 'delay', 6, 17, 18);
 sfga = addoperand(sfga, 'delay', 7, 19, 20);
 sfga = addoperand(sfga, 'out', 1, 22);
+
 
